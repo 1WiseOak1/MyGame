@@ -34,6 +34,7 @@ while running:
     
     # Рендеринг
     screen.fill(Colours.BLACK)
+    background_image = pygame.image.load('shrek.png')
     all_sprites.draw(screen)
     # После отрисовки всего, переворачиваем экран
     pygame.display.flip()

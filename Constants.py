@@ -1,7 +1,7 @@
 import os
 
 class Constants():
-    WIDTH = 480
+    WIDTH = 800
     HEIGHT = 600
     FPS = 60 #GAME_PATH 
     GAME_PATH = os.path.dirname(__file__)
